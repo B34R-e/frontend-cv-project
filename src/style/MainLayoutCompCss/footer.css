@@ -1,0 +1,16 @@
+.footer-container {
+  display: flex;
+  width: 100%;
+  height: calc(var(--min-height-hf) / 2);
+  min-width: var(--min-width);
+  max-height: var(--max-height);
+  align-items: center;
+  background-color: var(--main-color-2);
+}
+
+.footer-contact {
+  color: var(--word-color-2);
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 50px;
+}

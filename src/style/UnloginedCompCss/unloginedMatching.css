@@ -1,0 +1,48 @@
+.unlogined-matching-container {
+  display: flex;
+  width: 100%;
+  /* height: 100%;/ */
+  align-items: center;
+  justify-content: space-around;
+}
+
+.unlogined-matching-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 171px;
+  min-height: 60px;
+
+  background-color: var(--main-color-3);
+
+  border-radius: 10px;
+
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--word-color-2);
+}
+
+.unlogined-file-uploader {
+  position: relative;
+}
+.unlogined-file-uploader-name {
+  position: absolute;
+
+  font-size: 20px;
+  font-weight: 500;
+  color: #0658c2;
+
+  top: 10px;
+  left: 8px;
+}
+
+.unlogined-file-uploader-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.guZdik {
+  height: calc(var(--min-height) / 2) !important;
+}

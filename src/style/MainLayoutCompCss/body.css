@@ -1,0 +1,7 @@
+.body-container {
+  display: flex;
+  width: 100%;
+  height: calc(100% - (var(--min-height-hf) * 3 / 2));
+  min-height: var(--min-height);
+  min-width: var(--min-width);
+}
